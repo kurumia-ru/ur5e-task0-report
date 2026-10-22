@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>タスク2の重みでタスク2</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; background: #111; color: #eee; }
+    h1 { font-size: 28px; margin-bottom: 8px; }
+    p { max-width: 820px; line-height: 1.5; }
+    .grid { display: flex; flex-wrap: wrap; gap: 20px; }
+    figure { margin: 0; width: 360px; }
+    video { width: 360px; height: 360px; background: #000; display: block; }
+    figcaption { font-size: 16px; margin-top: 8px; }
+  </style>
+</head>
+<body>
+  <h1>タスク2の重みで、タスク2</h1>
+  <p>学習も推論も「サラダドレッシングをカゴに入れる」です。デモと同じ init 0、8、15、38 です。再生は、瓶の中心がカゴの領域に入ったところで止まっています。</p>
+  <div class="grid">
+    <figure>
+      <video src="init00.mp4" controls autoplay muted loop playsinline></video>
+      <figcaption>init 0。6.8秒。</figcaption>
+    </figure>
+    <figure>
+      <video src="init08.mp4" controls muted loop playsinline></video>
+      <figcaption>init 8。6.8秒。</figcaption>
+    </figure>
+    <figure>
+      <video src="init15.mp4" controls muted loop playsinline></video>
+      <figcaption>init 15。6.7秒。</figcaption>
+    </figure>
+    <figure>
+      <video src="init38.mp4" controls muted loop playsinline></video>
+      <figcaption>init 38。7.0秒。</figcaption>
+    </figure>
+  </div>
+</body>
+</html>
