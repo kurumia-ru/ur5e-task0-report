@@ -3,18 +3,17 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>タスク2の重みでタスク0 init 0</title>
+  <title>タスク2の重みでタスク0</title>
   <style>
     body { font-family: system-ui, sans-serif; margin: 24px; background: #111; color: #eee; }
-    h1 { font-size: 26px; }
+    h1 { font-size: 28px; }
     p { max-width: 720px; line-height: 1.55; }
-    video { width: 360px; height: 360px; background: #000; }
+    video { width: min(90vw, 640px); height: min(90vw, 640px); background: #000; display: block; }
   </style>
 </head>
 <body>
-  <h1>タスク2の重みで、タスク0の init 0</h1>
-  <p>学習した文は「サラダドレッシングをカゴに入れる」です。この推論で渡した文は「アルファベットスープをカゴに入れる」です。場面はタスク0です。</p>
-  <video src="init00.mp4" controls playsinline></video>
-  <p>7.9秒で公式成功になりました。スコアが追った物体はアルファベットスープです。</p>
+  <h1>タスク2の重みで、タスク0</h1>
+  <p>学習した文は「サラダドレッシングをカゴに入れる」です。推論で渡した文は「アルファベットスープをカゴに入れる」です。場面はタスク0の init 0 です。再生は、缶の中心がカゴの領域に入ったところで止まっています。手はまだ缶を持っています。</p>
+  <video src="init00.mp4?v=2" controls autoplay muted loop playsinline></video>
 </body>
 </html>
